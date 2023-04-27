@@ -1,5 +1,7 @@
 package com.ead.course.dtos;
 
+import com.ead.course.enums.UserStatus;
+import com.ead.course.enums.UserType;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
@@ -13,6 +15,8 @@ public class UserDto {
     private String username;
     private String email;
     private String fullName;
+    private UserStatus userStatus;
+    private UserType userType;
     private String phoneNumber;
     private String cpf;
     private String imageUrl;
