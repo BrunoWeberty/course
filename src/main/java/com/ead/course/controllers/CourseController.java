@@ -62,7 +62,7 @@ public class CourseController {
         }
         courseService.delete(courseModelOptional.get());
         log.debug("DELETE deleteCourse courseId deleted {}", courseId);
-        log.info("DELETE deleteCourse courseId deleted {}", courseId);
+        log.info("Course deleted successfully courseId {}", courseId);
         return ResponseEntity.status(HttpStatus.OK).body("Course deleted successfully");
     }
 
