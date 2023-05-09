@@ -22,6 +22,8 @@ spring:
   output:
     ansi:
       enabled: always
+  rabbitmq:
+    addresses: amqps://izkhkblw:bRmAhYrhR0aG3Cim38W4ZY0h5URG4e28@whale.rmq.cloudamqp.com/izkhkblw
 
 logging:
   level:
